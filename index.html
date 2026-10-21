@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPUs — Concept Renders</title>
+    <meta name="description" content="Two fictional AI-generated graphics card concept renders: MONACO APEX-X and MONACO TITAN-M. View and download.">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>">
+    <style>
+        :root {
+            --bg: #0b0d10;
+            --card: #14181e;
+            --border: #232a34;
+            --muted: #9aa3b2;
+            --accent: #00c9ff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+            background: var(--bg); color: #f2f4f7; line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+        header { text-align: center; padding: 64px 0 20px; }
+        header h1 { font-size: clamp(30px, 5vw, 46px); letter-spacing: -0.01em; }
+        header h1 span { color: var(--accent); }
+        header p { color: var(--muted); max-width: 640px; margin: 14px auto 0; font-size: 17px; }
+        .gallery { display: grid; gap: 28px; padding: 44px 0; }
+        figure {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; overflow: hidden;
+            transition: transform .15s, border-color .2s;
+        }
+        figure:hover { transform: translateY(-3px); border-color: var(--accent); }
+        .img-wrap { background: #000; }
+        .img-wrap img { display: block; width: 100%; height: auto; }
+        figcaption { padding: 24px 26px 28px; }
+        figcaption .code {
+            font-size: 13px; font-weight: 700; letter-spacing: .08em;
+            text-transform: uppercase; color: var(--accent); margin-bottom: 8px;
+        }
+        figcaption h2 { font-size: 24px; margin-bottom: 8px; }
+        figcaption p { color: var(--muted); font-size: 15.5px; margin-bottom: 14px; }
+        .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+        .meta span {
+            font-size: 13px; color: var(--muted); border: 1px solid var(--border);
+            border-radius: 999px; padding: 4px 12px;
+        }
+        .dl {
+            display: inline-block; background: var(--accent); color: #04202c;
+            font-weight: 700; font-size: 15px; text-decoration: none;
+            padding: 12px 26px; border-radius: 10px;
+            transition: transform .15s, opacity .2s;
+        }
+        .dl:hover { transform: translateY(-2px); opacity: .92; }
+        .license {
+            max-width: 760px; margin: 0 auto 60px; padding: 28px 30px;
+            background: var(--card); border: 1px dashed var(--border);
+            border-radius: 14px; color: var(--muted); font-size: 15px;
+        }
+        .license strong { color: #f2f4f7; }
+        footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; color: var(--muted); font-size: 14px; }
+        /* lightbox */
+        .lightbox {
+            position: fixed; inset: 0; z-index: 100; display: none;
+            background: rgba(0,0,0,.92); align-items: center; justify-content: center;
+            padding: 24px; cursor: zoom-out;
+        }
+        .lightbox.open { display: flex; }
+        .lightbox img { max-width: 100%; max-height: 100%; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GPUs <span>/ concept renders</span></h1>
+            <p>Two fictional graphics card concept renders. Click any image to view it full-screen, or download the originals below.</p>
+        </header>
+
+        <main class="gallery">
+            <figure>
+                <div class="img-wrap">
+                    <a href="IMG_3184.png" class="zoom" title="View full size">
+                        <img src="IMG_3184.png" alt="MONACO APEX-X black and clear concept graphics card render with visible die">
+                    </a>
+                </div>
+                <figcaption>
+                    <div class="code">Render 01</div>
+                    <h2>MONACO APEX-X</h2>
+                    <p>Black and clear concept GPU with a visible die and "RISC-V / GaN-on-Diamond" branding. A fictional design study, not a real product.</p>
+                    <div class="meta"><span>1408 × 768 PNG</span><span>1.56 MB</span><span>AI-generated artwork</span></div>
+                    <a class="dl" href="IMG_3184.png" download="MONACO-APEX-X.png">Download PNG</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <div class="img-wrap">
+                    <a href="IMG_3185.png" class="zoom" title="View full size">
+                        <img src="IMG_3185.png" alt="MONACO TITAN-M red concept graphics card render">
+                    </a>
+                </div>
+                <figcaption>
+                    <div class="code">Render 02</div>
+                    <h2>MONACO TITAN-M</h2>
+                    <p>Red concept GPU render. A fictional design study, not a real product.</p>
+                    <div class="meta"><span>1408 × 768 PNG</span><span>1.42 MB</span><span>AI-generated artwork</span></div>
+                    <a class="dl" href="IMG_3185.png" download="MONACO-TITAN-M.png">Download PNG</a>
+                </figcaption>
+            </figure>
+        </main>
+
+        <aside class="license">
+            <strong>About these images.</strong> Both renders are fictional AI-generated concept artwork. They do not depict real graphics cards, and "MONACO" here is a made-up brand, not affiliated with any hardware vendor. The spec-style text visible in the artwork (for example "RISC-V / GaN-on-Diamond") is part of the fiction, not a real specification. Free to view and download.
+        </aside>
+    </div>
+
+    <footer>
+        <p>GPUs — fictional concept renders.</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
+        <img id="lightbox-img" src="" alt="">
+    </div>
+
+    <script>
+        // Lightbox: click a render to view it full-screen, click anywhere to close
+        (function () {
+            var box = document.getElementById('lightbox');
+            var img = document.getElementById('lightbox-img');
+            document.querySelectorAll('.zoom').forEach(function (a) {
+                a.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    img.src = a.getAttribute('href');
+                    img.alt = a.querySelector('img').getAttribute('alt');
+                    box.classList.add('open');
+                });
+            });
+            box.addEventListener('click', function () {
+                box.classList.remove('open');
+                img.src = '';
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    box.classList.remove('open');
+                    img.src = '';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
