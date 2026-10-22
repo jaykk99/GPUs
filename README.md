@@ -20,4 +20,4 @@ python -m http.server 8000
 # → http://localhost:8000
 ```
 
-Upload `index.html` + both PNGs to any static host to publish.
+Live: **https://jaykk99.github.io/GPUs/** (GitHub Pages, auto-deploys from `main`)
