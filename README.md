@@ -1,3 +1,5 @@
+Live: https://jaykk99.github.io/GPUs/
+
 # GPUs
 
 Concept renders of fictional "Monaco" graphics cards (AI-generated artwork).
@@ -20,4 +22,4 @@ python -m http.server 8000
 # → http://localhost:8000
 ```
 
-Live: **https://jaykk99.github.io/GPUs/** (GitHub Pages, auto-deploys from `main`)
+Live: https://jaykk99.github.io/GPUs/ (GitHub Pages, auto-deploys from `main`)
